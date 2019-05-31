@@ -1,0 +1,28 @@
+new Vue
+(
+    {
+        el:'#apps',
+        data:
+        {
+            health_length:100,
+            ended:false,
+        },
+        methods:
+        {
+            Punch:function()
+            {
+                this.health_length=this.health_length-10;
+                if(this.health_length<=0)
+                {
+                    this.ended=true;
+                }
+                console.log("12");
+            },
+            reset:function()
+            {
+                this.health_length=100;
+                this.ended=false;
+            }
+        }
+    }
+)

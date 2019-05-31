@@ -1,0 +1,41 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+#bag
+{
+    width: 300px;
+    height: 500px;
+    margin: 0 auto;
+    background-image: url(img/1.png);
+}
+#health
+{
+    width: 200px;
+    height: 30px;
+    margin: 0 auto;
+    border:2px solid #000;
+}
+#health div
+{
+    width: 200px;
+    height: 30px;
+    background-color:rgb(163, 6, 6); 
+}
+#btn
+{
+    width: 200px;
+    margin:0 auto;
+    
+}
+button
+{
+    width: 80px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+#bag.burst
+{
+    background-image: url(img/2.png);
+}
